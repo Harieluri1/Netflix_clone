@@ -1,0 +1,225 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    padding-top: -4px;
+    padding-right: 0px;
+    background-image: url('images/ntfx-bg.jpg');
+    margin-top: -8px;
+    margin-left: -10px;
+    margin-right: -8.3px;
+}
+.shade{
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 20px;
+    margin-top: -8px;
+    margin-left: -10px;
+    margin-right: -8.3px;
+    background-color: black;
+    opacity: 0.72;
+}
+.tx1{
+    font-weight: 770;
+}
+.tx2{
+    font-size: 16px;
+    font-weight: 350;
+}
+header{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.logo{
+    width: 100px;
+}
+.btn-sgn:hover,.log-btn:hover{
+    background-color: #b2050e;
+}
+.btn-lag{
+    background-color: transparent;
+    border-style: ridge;
+    border-width: 0.5px;
+    border-color: white;
+    font: 15px sans-serif;
+    color: white;
+    margin-right: 10px;
+    float: right;
+    height: 30px;
+    width: 110px;
+    border-radius: 5px;
+}
+
+.btn-sgn{
+    background-color: #e50914;
+    font: 15px sans-serif;
+    color: white;
+    float: right;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+}
+.col1{
+    
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+    
+}
+.log-in{
+    font-size: 17px;
+    color: white;
+    background-color: transparent;
+    margin-bottom: 10px;
+    border-style: ridge;
+    border-radius: 5px;
+    height: 45px;
+    width: 350px;
+}
+.log-btn{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 48px;
+    width: 150px;
+    margin-bottom: 50px;
+}
+hr{
+    border: none;
+    margin: 0px;
+    margin-left: -10px;
+    padding: 0px;
+    width: 101.4%;
+    background-color: #232323;
+    height: 7px;
+}
+@media only screen and (min-width: 960px){
+
+    header{
+        position: relative;
+        
+        margin-bottom: 150px;
+        margin-left: 100px;
+        margin-right: 100px;
+        
+    }
+    .logo{
+        width: 150px;
+    }
+    .tx1{
+        font-size: 40px;
+        font-weight: 1000;
+    }
+    
+    .tx2{
+        font-size: 20px;
+        font-weight: 350;
+    }
+    .log-in{
+        margin-bottom: 150px;
+    }
+    .log-btn{
+        margin-bottom: 150px;
+    }
+    .col2{
+        margin-left: 200px;
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0px;
+    }
+    .col3{
+        margin-left: 200px;
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0px;
+    }
+    .col4{
+        margin-left: 200px;
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0px;
+    }
+    .col5{
+        margin-left: 200px;
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 0px;
+    }
+    
+
+   
+}
+.col2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.col3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.col4{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.col5{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.col6{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+}
+.faqs{
+    background-color: #232323;
+    height: 40px;
+    margin: 20px;
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+a{
+    color: white;
+}
+.ntfx{
+
+    text-decoration: none;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    opacity: 0.91;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 25px;
+    opacity: 0.6;
+    font-size: 15px;
+    color: white;
+}
